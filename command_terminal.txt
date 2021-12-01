@@ -41,3 +41,6 @@ git add .
 git add *
 //ajoute index.html et command_terminal.txt
 git add index.html command_terminal.txt
+
+//sauvegarder les fichier ajouté dans git
+git commit -m "premier commit dans git"
