@@ -45,5 +45,10 @@ git add index.html command_terminal.txt
 //sauvegarder les fichier ajouté dans git
 git commit -m "premier commit dans git"
 
-//afficher dans le terminal les différentes sauvegarde du projet
+/afficher dans le terminal les différentes sauvegarde du projet
 git log
+
+//exemple de checkout
+//pour revenir à une version précise de nos fichiers
+git checkout faabf492f7b4fad14a644fc544d57f93a9af0191 command_terminal.txt
+git checkout b4883f40421b51cb792d96a250f51529d5a6e593 command_terminal.txt 
